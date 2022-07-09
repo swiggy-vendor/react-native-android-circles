@@ -33,7 +33,7 @@ repositories {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile "com.facebook.react:react-native:0.19.+"
-    compile "com.github.jakob-grabner:Circle-Progress-View:1.2.8"
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.facebook.react:react-native:0.19.+"
+    implementation "com.github.jakob-grabner:Circle-Progress-View:1.2.8"
 }
