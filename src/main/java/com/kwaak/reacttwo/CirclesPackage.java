@@ -20,8 +20,7 @@ public class CirclesPackage implements ReactPackage {
         List<NativeModule> modules = new ArrayList<>();
         return modules;
     }
-
-    @Override
+    
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
